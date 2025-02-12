@@ -197,7 +197,7 @@ ax.set_title("validation loss")
 ax.set_xlabel("epochs")
 
 ax2 = fig.add_subplot(122)
-ax2.plot(history.history["val_acc"])
+ax2.plot(history.history["val_accuracy"])
 ax2.set_title("validation accuracy")
 ax2.set_xlabel("epochs")
 ax2.set_ylim(0, 1)
@@ -227,6 +227,8 @@ out = new_classification_layer(vgg.layers[-2].output)
 
 # create a new network between inp and out
 model_new = Model(inp, out)
+
+
 
 # make all layers untrainable by freezing weights (except for last layer)
 for l, layer in enumerate(model_new.layers[:-1]):
