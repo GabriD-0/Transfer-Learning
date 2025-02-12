@@ -1,4 +1,4 @@
-#Classificação de Imagens: Cats, Dogs, Finn & Jake
+# Classificação de Imagens: Cats, Dogs, Finn & Jake
 
 Este repositório contém um projeto de classificação de imagens que utiliza duas abordagens principais para identificar imagens em quatro categorias: **cats**, **dogs**, **Finn** e **Jake** (personagens de *Hora de Aventura*). O código demonstra tanto a criação de uma rede neural convolucional (CNN) personalizada quanto a utilização de *transfer learning* com o modelo **VGG16**.
 
@@ -158,5 +158,3 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 ---
 
 **Nota:** Este projeto foi desenvolvido utilizando **Python 3.10.11** e conta com a colaboração de diversas bibliotecas de aprendizado de máquina e processamento de imagens. Caso tenha dúvidas ou sugestões, sinta-se à vontade para abrir uma _issue_ ou entrar em contato.
-
-Happy Coding!
