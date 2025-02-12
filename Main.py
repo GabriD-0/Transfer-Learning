@@ -247,7 +247,7 @@ model_new.summary()
 
 history2 = model_new.fit(x_train, y_train, 
                          batch_size=128, 
-                         epochs=10, 
+                         epochs=5, 
                          validation_data=(x_val, y_val))
 
 
@@ -277,5 +277,5 @@ print('Test accuracy:', accuracy)
 
 
 
-img, x = get_image('101_ObjectCategories/airplanes/image_0003.jpg')
+img, x = get_image('./Finn/1.jpg')
 probabilities = model_new.predict([x])
